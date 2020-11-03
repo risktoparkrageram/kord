@@ -3,6 +3,8 @@ kord is a python framework that provides programmers with a simple api for the c
 
 ![](https://github.com/synestematic/kord/blob/master/resources/chrom.png?raw=true)
 
+This fork is designed to add midi note functionality
+
 ## installation
 
 The only dependency for `kord` is the pip package `bestia`, my own library for creating command-line applications. Both can be automatically installed by using pip:
