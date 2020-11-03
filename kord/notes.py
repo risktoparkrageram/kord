@@ -244,6 +244,10 @@ class MusicNote(object):
             return _CHARS.index(self.chr) > _CHARS.index(other.chr)
         return input_alterations().index(self.alt) > input_alterations().index(other.alt)
 
+    @property
+    def MIDI(self):
+        return 24 + self.matrix_coordinates[0] + (self.oct * 12)
+
 
     # ENHARMONIC ATTRIBUTES
     @property
