@@ -151,10 +151,11 @@ class MusicNote(object):
 
     @property
     def repr_oct(self):
-        output = ''
-        for c in str(self.oct):
-            output += _OCTS[int(c)]
-        return output
+        return _OCTS[self.oct]
+#         output = ''
+#         for c in str(self.oct):
+#             output += _OCTS[int(c)]
+#         return _OCTS[int(c)]
 
     @property
     def repr_alt(self):
